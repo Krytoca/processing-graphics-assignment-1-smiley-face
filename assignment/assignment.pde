@@ -45,8 +45,10 @@ void draw() {
   stroke(0,0,0);
   strokeWeight(1);
   fill(0,0,0);
-  ellipse(310,330,40,65);
-  ellipse(390,330,40,65);
+  ellipse(310,310,40,65);
+  ellipse(390,310,40,65);
   
-  
+  //Draw mouth
+  strokeWeight(3);
+  line(300,400,400,400);
 }
