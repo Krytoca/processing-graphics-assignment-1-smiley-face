@@ -40,4 +40,13 @@ void draw() {
   strokeWeight(5);
   fill(250,255,0);
   ellipse(350,350,200,200);
+  
+  //Draw both eyes
+  stroke(0,0,0);
+  strokeWeight(1);
+  fill(0,0,0);
+  ellipse(310,330,40,65);
+  ellipse(390,330,40,65);
+  
+  
 }
