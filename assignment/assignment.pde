@@ -6,7 +6,6 @@ void setup() {
 void draw() {
   // Program will be here...
   //Draw Even-spaced rectangles
-  //Add stroke and strokeweight
   stroke(0,140,10);
   strokeWeight(1);
   fill(165,0,0);
@@ -21,6 +20,7 @@ void draw() {
   strokeWeight(10);
   fill(85,0,165);
   rect(500,100,100,55);
+  //Add stroke and strokeweight
   
   //Draw labels
   fill(255,255,255);
@@ -34,5 +34,10 @@ void draw() {
   textSize(12);
   text("strokeWeight=10 and fill = purple", 500,175);
   fill(255,255,255);
-  //
+  
+  //draw outer circle
+  stroke(0,255,0);
+  strokeWeight(5);
+  fill(250,255,0);
+  ellipse(350,350,200,200);
 }
