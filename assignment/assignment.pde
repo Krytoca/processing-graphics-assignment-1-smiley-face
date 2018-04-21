@@ -6,14 +6,33 @@ void setup() {
 void draw() {
   // Program will be here...
   //Draw Even-spaced rectangles
+  //Add stroke and strokeweight
+  stroke(0,140,10);
+  strokeWeight(1);
+  fill(165,0,0);
   rect(100,100,100,55);
+  
+  stroke(90,0,165);
+  strokeWeight(4);
+  fill(0,140,10);
   rect(300,100,100,55);
+  
+  stroke(165,0,0);
+  strokeWeight(10);
+  fill(85,0,165);
   rect(500,100,100,55);
+  
   //Draw labels
+  fill(255,255,255);
   textSize(12);
   text("Red fill",100,175);
+  
   textSize(12);
   text("strokeWeight=4",300,175);
+  fill(255,255,255);
+  
   textSize(12);
-  text("strokeWeight=12 and fill = purple", 500,175);
+  text("strokeWeight=10 and fill = purple", 500,175);
+  fill(255,255,255);
+  //
 }
