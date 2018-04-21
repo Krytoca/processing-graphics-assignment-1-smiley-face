@@ -51,4 +51,10 @@ void draw() {
   //Draw mouth
   strokeWeight(3);
   line(300,400,400,400);
+  
+  //Bonus eyebrow
+  line(320,270,340,300);
+  
+  //Bonus eyebrow 2
+  line(360,300,380,270);
 }
