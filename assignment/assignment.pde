@@ -9,4 +9,11 @@ void draw() {
   rect(100,100,100,55);
   rect(300,100,100,55);
   rect(500,100,100,55);
+  //Draw labels
+  textSize(12);
+  text("Red fill",100,175);
+  textSize(12);
+  text("strokeWeight=4",300,175);
+  textSize(12);
+  text("strokeWeight=12 and fill = purple", 500,175);
 }
